@@ -1,62 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <title>Dhruv's Blog</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="BestBlog Atom Feed" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous">
+
+    	<link rel="stylesheet" href="sty.css">
+
+	<script src="app.js"></script>
+
+	<title>To Do List</title>
 </head>
+<div class="background">
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    
+  </div>
+</section>
+<body style="background-color:rgb(1, 15, 17);">
+	<header class="bg-black text-white p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<font face="Comic sans MS"
+						size="11" color="white">
+						<center><strong>∞ The infinite task list ∞</strong></center>
+					</font>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">BestBlog</a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About<br></a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+                <font face="Comic sans MS"
+                    size="6" color="white">
+                    <center><strong>Because the grind never ends</strong></center>
+                </font>
+					
+                <h2>-------------------------------------------------------------------------------------------------------------</h2>
+				</div>
+			</div>
+		</div>
+	</header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/slaying-the-anarchy.html">Something about myself</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2021-06-16T00:00:00+02:00">
-                Published: Wed 16 June 2021
-        </abbr>
+	<div class="container mt-3">
+		<h2>Add to the pain !! </h2>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/manmahon-singh.html">Manmahon Singh</a>
-        </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
+		<label id="lblsuccess" class="text-success"
+				style="display: none;">
+		</label>
+		
+		<form id="addForm">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-7">
 
-</footer><!-- /.post-info --><h1>I am On My Way To Internet Fame and Fortune!</h1>
-<p>This is my first post on my new blog. While not super informative it
-should convey my sense of excitement and eagerness to engage with you,
-the reader!</p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="https://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://www.python.org/">Python.org</a></li>
-                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+					<input type="text" onkeyup=
+						"toggleButton(this, 'submit')"
+						class="form-control" id="item">
+				</div>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+				<div class="col-lg-5 col-md-5 col-sm-5">
+				<input type="submit" class="btn btn-outline-success"
+						id="submit" value="Submit" disabled>
+				</div>
+			</div>
+		</form>
 
+		<h2 class="mt-4">Tasks</h2>
 
-
+		<form id="addForm">
+			<ul class="list-group" id="items"></ul>
+		</form>
+	</div>
 </body>
+
 </html>

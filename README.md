@@ -1,5 +1,8 @@
 
 <h2><a href="dhruvk1999.github.io"> dhruvk1999.github.io </a></h2>
+<h3>Login Credentials for Testing : (As of now the user has to be added thorough the backend directly)</h3>
+<li>User Id: testing2021@hotmail.com </li>
+<li>Password : 123456789 </li>
 <h3>Tech Stack : </h3>
 <li>Firebase - For login and Authentication </li>
 <li>Deployed through/Environment : Github Pages</li>

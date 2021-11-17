@@ -1,6 +1,7 @@
 
 <h2><a href="dhruvk1999.github.io"> dhruvk1999.github.io </a></h2>
-<h3>Login Credentials for Testing : (As of now the user has to be added thorough the backend directly)</h3>
+<h3>Login Credentials for Testing : </h3>
+(As of now new user has to be added through the backend-FirebaseDB)
 <li>User Id: testing2021@hotmail.com </li>
 <li>Password : 123456789 </li>
 <h3>Tech Stack : </h3>

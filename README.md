@@ -4,7 +4,7 @@
 <li>Firebase - For login and Authentication </li>
 <li>Deployed through/Environment : Github Pages</li>
 <li>HTML,CSS,JS</li>
-<li>Features</li> 
+<h2>Features</h2> 
 <li> Login/Authentication using firebase</li>
 <li> Adding New tasks</li>
 <li> Marking tasks as done</li>

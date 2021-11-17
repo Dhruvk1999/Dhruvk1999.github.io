@@ -46,5 +46,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   }
 
   function gotosite(){
-    firebase.auth().signOut();
+    window.location.href = "http://www.w3schools.com";
+;
   }
+  

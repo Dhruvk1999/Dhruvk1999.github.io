@@ -37,10 +37,14 @@ firebase.auth().onAuthStateChanged(function(user) {
         
       // ...
     });
-    window.location.href = "dhruvk1999.githuv.io";
+    
 
   }
   
   function logout(){
+    firebase.auth().signOut();
+  }
+
+  function gotosite(){
     firebase.auth().signOut();
   }

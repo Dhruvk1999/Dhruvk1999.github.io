@@ -18,7 +18,7 @@
 <li><h2>Login page </h2></li>
  <img src="login.jpg" width="500" height="350"/>
 <li><h2>To-do List Page<h2></li>
-  <img src="main.jpg" width="500" height="350"/>
+  <img src="main.jpg" width="700" height="450"/>
 
 <li><h2>Editting an Entry <h2></li>
   <img src="edit.jpg" width="500" height="350"/>

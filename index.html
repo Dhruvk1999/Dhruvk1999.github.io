@@ -1,89 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>css basics</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+         <!-- Latest compiled and minified CSS -->
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/master.css">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content=
-		"width=device-width, initial-scale=1.0">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<link rel="stylesheet" href=
-"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity=
-"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-		crossorigin="anonymous">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    </head>
 
-    	<link rel="stylesheet" href="sty.css">
 
-	<script src="app.js"></script>
+    <body>
 
-	<title>To Do List</title>
-</head>
-<div class="background">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="alt.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+
+          <div class="jumbotron">
+            <h1 class="display-4">Hey, there!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+
+        
+        <h1>
+            My Projects
+        </h1>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        
+      
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on 
+                                the card title and make up the bulk 
+                                of the card's content.
+                            </p>
+      
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Card link
+                            </a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">
+                                <i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                       
+      
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the 
+                                card title and make up the bulk of the 
+                                card's content.
+                            </p>
+                              
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Card link
+                            </a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">
+                                <i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        
+      
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">
+                                Some quick example text to build on 
+                                the card title and make up the bulk 
+                                of the card's content.
+                            </p>
+      
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Card link
+                            </a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">
+                                <i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                       
+      
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the 
+                                card title and make up the bulk of the 
+                                card's content.
+                            </p>
+                              
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Card link
+                            </a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">
+                                <i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+  
+    <div class="container">
+        <div class="firstclass">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Error eum aspernatur minima reprehenderit, architecto imped
+                it blanditiis omnis quibusdam inventore nisi maiores animi?
+            </p> 
+            <p>
+                <span>
+                Nesciunt fugiat tenetur quo quas nulla aliquam delectus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. V
+                oluptatum corporis voluptas eum animi delectus veritatis nul
+                </span>
+            </p>>
+            <p id="special">
+
+                la laborum veniam. Iure repellendus molestias ex esse
+                autem excepturi eaque quod voluptatibus temporibus magnam.
+            </p>
+        </div>
+
+        <div class="second" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                 eos aliquid officia dolore? Mollitia placeat similique aperiam deserunt modi, quae impedit 
+                magnam dolorum sapiente inventore! Sit cumque minima illo voluptatem?</p>
+        </div>
+    </div>
+        <h3>this is a heading 2</h3>
     
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+    <!-- <div class="ncontainer">
+        <div class="footer">
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i>thereadasf</a></li>
     
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    
-  </div>
-</section>
-<body style="background-color:rgb(1, 15, 17);">
-	<header class="bg-black text-white p-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<h2><center>------------------------------------------------------</h2>
-					<font face="Comic sans MS"
-						size="11" color="white">
-						<center><strong>∞ The infinite task list ∞</strong></center>
-					</font>
+        </div>
+        
+    </div> -->
+    <footer class="footer">
+        <div class="container text-center">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-skype"></i></a>
+        </div>
+    </footer>
 
-                <font face="Comic sans MS"
-                    size="6" color="white">
-                    <center><strong>Because the grind never ends</strong></center>
-                </font>
-					
-                <h2><center>------------------------------------------------------</h2>
-				</div>
-			</div>
-		</div>
-	</header>
 
-	<div class="container mt-3">
-		<h2>Add to the pain !! </h2>
-
-		<label id="lblsuccess" class="text-success"
-				style="display: none;">
-		</label>
-		
-		<form id="addForm">
-			<div class="row">
-				<div class="col-lg-7 col-md-7 col-sm-7">
-
-					<input type="text" onkeyup=
-						"toggleButton(this, 'submit')"
-						class="form-control" id="item">
-				</div>
-
-				<div class="col-lg-5 col-md-5 col-sm-5">
-				<input type="submit" class="btn btn-outline-success"
-						id="submit" value="Submit" disabled>
-				</div>
-			</div>
-		</form>
-
-		<h2 class="mt-4">Tasks</h2>
-		
-		<form id="addForm">
-			<ul class="list-group" id="items"></ul>
-		</form>
-	</div>
-</body>
+    </body>
 
 </html>

@@ -1,0 +1,111 @@
+/* this is a comment*/
+/* these are 
+also a 
+comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    user-select: none;
+}
+.content1{
+    width: 100%; min-height: 100vh;
+    display: flex; align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+.instruction h1{
+    font-size: 100px;
+    text-align: center;
+}
+.instruction h4{
+    font-size: 40px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+#button{
+    width: 200px; height: 50px;
+    font-size: 20px;
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.1s linear;
+    border-radius: 1000px;
+    cursor: pointer;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+}
+#button:hover{
+    background-color: transparent;
+    letter-spacing: 3px;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    color: black;
+}
+#content2{
+    width: 100%; min-height: 100vh;
+    position: absolute; top: 0;
+    left: -100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s linear;
+}
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: 0.1s linear;
+}
+a:hover{
+    color: rgba(255,255,255,0.8);
+}
+li{
+    padding: 10px 0;
+    list-style: none;
+}
+.m{
+    width: 1px; height: 20px;
+    background-color: white;
+}
+.m1{
+    transform: rotate(45deg) translateX(0.5px);
+}
+.m2{
+    transform: rotate(-45deg);
+}
+#cross{
+    width: 30px; height: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5); border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 40px; right: 40px;
+    transition: 0.1s linear;
+}
+#cross:hover{
+    background-color: rgba(73, 21, 21, 0.2);
+}
+
+body{
+    font-family: 'Bebas Neue'
+}
+
+.footer{
+    background-color: rgb(41, 98, 146);
+    height: inherit;
+}
+

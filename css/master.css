@@ -101,11 +101,36 @@ li{
 }
 
 body{
-    font-family: 'Bebas Neue'
+    background-color: #121212;
+    font-family: 'Bebas Neue';
+    color:whitesmoke;
 }
 
 .footer{
     background-color: rgb(41, 98, 146);
     height: inherit;
+    padding: 50;
 }
+
+.color{
+    background-color: #252424;
+}
+
+
+
+.header{
+    width: 25%;
+    margin: auto;
+}
+
+.icon{
+    padding: 50;
+}
+
+
+
+
+
+
+
 

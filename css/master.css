@@ -3,11 +3,14 @@
 also a 
 comment */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap'); */
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
+    
     user-select: none;
 }
 .content1{
@@ -102,7 +105,7 @@ li{
 
 body{
     background-color: #121212;
-    font-family: 'Bebas Neue';
+    font-family: 'Rowdies', cursive;
     color:whitesmoke;
 }
 
@@ -125,6 +128,16 @@ body{
 
 .icon{
     padding: 50;
+}
+
+.quote{
+    height: fit-content;
+    padding:10;
+    
+}
+
+.padless{
+    padding:100;
 }
 
 

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>this</title>
+        <link rel="stylesheet" href="css/modal.css">
+        <script type="text/javascript">
+            const modal = document.querySelector(".modal");
+            const modalContent = document.querySelector(".modal-content");
+
+            document.querySelector(".btn").addEventListener("click", function() {
+            modal.style.display = "block";
+            modalContent.classList.add("show");
+            });
+
+            document.querySelector(".close").addEventListener("click", function() {
+            modal.style.display = "none";
+            modalContent.classList.remove("show");
+            });
+
+            window.onclick = e => {
+            if (e.target == modal) {
+                modal.style.display = "none";
+                modalContent.classList.remove("show");
+            }
+            };
+
+          </script>
+    </head>
+    <body>
+        <h1>Modal Box</h1>
+        <!-- Modal trigger -->
+        <a class="btn">Open modal &#9995;</a>
+    
+        <!-- Modal -->
+        <div class="modal">
+          <!-- modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>This is a modal Header <span class="close">&times;</span></h3>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+                vel quibusdam tenetur quaerat distinctio inventore nam non facere,
+                quidem atque earum et perspiciatis voluptatem, explicabo ducimus
+                fuga quasi unde necessitatibus maxime delectus.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button>Action</button>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
